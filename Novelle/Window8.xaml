@@ -1,0 +1,24 @@
+﻿<Window x:Class="Novelle.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Novelle"
+        mc:Ignorable="d"
+        Title="Window8" Height="500" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="171*"/>
+            <ColumnDefinition Width="457*"/>
+            <ColumnDefinition Width="172*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="193*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="16*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/an-astronaut-is-flying-in-space-with-a-black-and-white-drawing-of-a-rocket_900101-50478.jpg" Stretch="Fill" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <TextBlock Margin="29,22,28,3" TextWrapping="Wrap" Background="Black" Foreground="White" FontSize="16" TextAlignment="Center" Text="(Маркиз отправился к вездеходу.)" Grid.Row="1" Grid.Column="1" MouseLeftButtonDown="Perehod8"/>
+
+    </Grid>
+</Window>

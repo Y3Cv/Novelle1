@@ -1,0 +1,25 @@
+﻿<Window x:Class="Novelle.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Novelle"
+        mc:Ignorable="d"
+        Title="Window3" Height="500" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="24.038"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="129*"/>
+            <ColumnDefinition Width="519*"/>
+            <ColumnDefinition Width="152*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/745435bac053b5d947354f699ed7a3f1_ce_1400x737x0x130_cropped_1200x628.png" Stretch="Fill" MouseLeftButtonDown="Perehod3_MouseLeftButtonDown" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
+        <TextBlock Margin="13,15,21,6" TextWrapping="Wrap" Text="(Так и хотел бы остаться здесь подольше..)" Background="Black" Foreground="White" FontSize="20" TextAlignment="Center" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,43,0,0" TextWrapping="Wrap" Text="Маркиз" VerticalAlignment="Top" Foreground="#FFB70000" Grid.Column="1" Height="16" Width="54" Grid.Row="1"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="Novelle.Window16"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Novelle"
+        mc:Ignorable="d"
+        Title="Window16" Height="500" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="467*"/>
+            <ColumnDefinition Width="172*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="192*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/5b9fb72218356124078b4588.jpg" Stretch="Fill" Grid.RowSpan="3" Grid.ColumnSpan="3" MouseLeftButtonDown="Perehod16"/>
+        <TextBlock Margin="39,14,28,8" TextWrapping="Wrap" Background="Black" Foreground="White" FontSize="16" TextAlignment="Center" Text="(Вскоре они вернуться домой и все будет хорошо)" Grid.Row="1" Grid.Column="1" />
+    </Grid>
+</Window>
